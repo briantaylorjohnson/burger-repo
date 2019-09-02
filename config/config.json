@@ -5,12 +5,13 @@
     "database": "burger_db",
     "host": "localhost",
     "dialect": "mysql",
+    "port": 3306,
     "operatorsAliases": false
   },
   "test": {
     "username": "root",
     "password": "abcd1234",
-    "database": "burger_db",
+    "database": "database_test",
     "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": false

@@ -21,7 +21,7 @@ var routes = require("./controllers/burgers_controller.js");
 app.use("/", routes);
 
 // Synchonizes the Sequelize models and then starts up the application
-db.sequelize.sync({ force: true }).then(function() {
+db.sequelize.sync({ force: false }).then(function() {
   app.listen(PORT, function() {
     console.log("App listening on Port: " + PORT);
   });
