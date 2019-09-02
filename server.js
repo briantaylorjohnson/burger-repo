@@ -13,10 +13,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Static directory for application assets
-app.use(express.static("public"));
+app.use(express.static(process.cwd() + "/public"));
 
 // Require routes HTML pages and APIs
-require("./controllers/burgers_controller.js")(app);
+var routes = require("./controllers/burgers_controller.js");
+
+app.use("/", routes);
 
 // Synchonizes the Sequelize models and then starts up the application
 db.sequelize.sync({ force: true }).then(function() {
