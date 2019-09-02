@@ -16,8 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Require routes HTML pages and APIs
-//require("./routes/api-routes.js")(app);
-//require("./routes/html-routes.js")(app);
+require("./controllers/burgers_controller.js")(app);
 
 // Synchonizes the Sequelize models and then starts up the application
 db.sequelize.sync({ force: true }).then(function() {
