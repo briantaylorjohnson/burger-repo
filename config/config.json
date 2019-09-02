@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "abcd1234",
-    "database": "burger_db_dev",
+    "database": "burger_db",
     "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -10,7 +10,7 @@
   "test": {
     "username": "root",
     "password": "abcd1234",
-    "database": "burger_db_test",
+    "database": "burger_db",
     "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": false
