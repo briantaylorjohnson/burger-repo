@@ -1,5 +1,6 @@
 'use strict';
 
+// Seed data consumabled by Sequelize
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Burgers', [

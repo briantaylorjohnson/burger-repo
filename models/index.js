@@ -1,3 +1,4 @@
+// File created by Sequelize when the database is initialized
 "use strict";
 
 var fs = require("fs");
