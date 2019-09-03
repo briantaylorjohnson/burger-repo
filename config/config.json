@@ -23,7 +23,6 @@
     "host": "gzp0u91edhmxszwf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "dialect": "mysql",
-    "operatorsAliases": false,
-    "use_env_variable": "mysql://drnlaq50wfxmwn5k:gavdw67a594in0jx@gzp0u91edhmxszwf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/iyrg67nbpue767n1"
+    "operatorsAliases": false
   }
 }
