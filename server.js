@@ -3,7 +3,7 @@ var express = require("express");
 
 // Sets up the Express.js application
 var app = express();
-var PORT = process.env.PORT;
+var PORT = process.env.PORT || '8080';
 
 // Requiring our models for synchronization
 var db = require("./models");
